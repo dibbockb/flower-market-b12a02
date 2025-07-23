@@ -1,4 +1,5 @@
 @media screen and (max-width: 576px) {
+  /* Navbar */
   #home,
   #shop,
   #aboutus {
@@ -9,6 +10,7 @@
     width: 63px;
     height: 38px;
     transform: scale(1.5);
+    margin-left: 16px;
   }
   .nav-logo,
   #cart-icon,
@@ -24,7 +26,38 @@
   #cart-info {
     font-size: 1.1rem;
     margin-top: 15px;
-    margin-right: -35px;
     font-weight: 500;
+    margin-right: -5px;
+  }
+
+  /* Hero Section */
+  .hero-container {
+    flex-direction: column;
+    margin-top: 1.75rem;
+  }
+
+  .hero-image {
+    order: 1;
+    width: 100%;
+  }
+
+  .hero-text {
+    order: 2;
+    margin-top: 2rem;
+    margin-left: 16px;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+    max-width: 22.5rem;
+    width: 60%;
+    height: 66px;
+  }
+
+  .hero-subtitle {
+    font-size: 0.75rem;
+    width: 22.5rem;
+    height: 4.25rem;
+    margin-top: 10px;
   }
 }

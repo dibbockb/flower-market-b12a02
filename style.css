@@ -60,3 +60,48 @@
   margin-left: -35px;
   font-weight: 500;
 }
+
+/* >>>>>> Hero Styles <<<<<< */
+.orange {
+  color: #e95a08;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1260px;
+  min-height: 464px;
+  width: 100%;
+  margin: 7rem auto;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 4rem;
+  max-width: 570px;
+  max-height: 178px;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-subtitle {
+  font-family: "Inter";
+  font-size: 1.375rem;
+  font-weight: 300;
+  max-width: 570px;
+  max-height: 178px;
+  width: 85%;
+  height: 100%;
+  margin-top: 13px;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
