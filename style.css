@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Noto Serif";
+}
+
+/* >>>>>>Navbar Styles<<<<<< */
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.nav-logo {
+  max-width: 8.4rem;
+  max-height: 5.1rem;
+}
+
+.nav-links {
+  display: flex;
+  text-align: center;
+  gap: 3rem;
+}
+
+#home {
+  color: #252432;
+  font-family: "Inter";
+  margin-top: 1.5px;
+}
+
+#shop {
+  color: #8987a1;
+  font-family: "Inter";
+  margin-top: 1.5px;
+}
+
+#aboutus {
+  color: #8987a1;
+  font-family: "Inter";
+  margin-top: 1.5px;
+}
+
+#cart-icon {
+  margin-left: 3rem;
+  width: 24px;
+  height: 24px;
+}
+
+#cart-info {
+  color: #252432;
+  font-family: "Inter";
+  margin-top: 1.5px;
+  margin-left: -35px;
+}
