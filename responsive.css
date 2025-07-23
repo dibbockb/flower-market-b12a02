@@ -60,4 +60,49 @@
     height: 4.25rem;
     margin-top: 10px;
   }
+
+  .plants-text {
+    flex-direction: column;
+    width: 370px;
+    height: 117px;
+  }
+
+  .plants-container {
+    margin-top: 0 auto;
+  }
+
+  .plants-title {
+    font-size: 1.5rem;
+    margin-top: -70px;
+  }
+
+  .plants-subtitle {
+    font-size: 0.75rem;
+    max-width: 336px;
+    width: 77%;
+    height: 68px;
+    color: black;
+    opacity: calc(50%);
+  }
+
+  .plants-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    max-width: 100vw;
+    margin-top: -15px;
+    justify-content: center;
+    gap: 20px 1px;
+  }
+
+  .card-button {
+    width: 90%;
+
+    height: 50px;
+    font-size: 0.875rem;
+  }
+
+  .plant-card img {
+    max-width: 100vw;
+    width: 90%;
+  }
 }
