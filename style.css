@@ -142,9 +142,9 @@
 
 .plants-gallery {
   display: grid;
-  max-width: 71.25rem;
+  max-width: 1300px;
   width: 100%;
-  gap: 50px 20px;
+  gap: 80px 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   margin: 45px auto;
@@ -179,4 +179,69 @@
   height: 100%;
   margin-top: 20px;
   font-size: 1.1rem;
+}
+
+.card-button:hover {
+  background-color: #c74b07;
+}
+
+/* >>>>>>Plants Lover Style<<<<<< */
+
+.plants-lover-container {
+  max-width: 71.25rem;
+  max-height: 37.31rem;
+  width: 100%;
+  height: 100%;
+  margin: -850px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.lover-images {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.lover-image {
+  display: block;
+  max-width: 33.75rem;
+  max-height: 37.3rem;
+  height: auto;
+}
+
+.trusted-badge {
+  max-width: 13.8rem;
+  max-height: 13.8rem;
+  padding: 5px 5px;
+  position: absolute;
+  top: -110px;
+  right: -10px;
+  z-index: 10;
+}
+
+.lover-title {
+  max-width: 540px;
+  max-height: 137px;
+  width: 75%;
+  height: 100%;
+  font-size: 3.125rem;
+  margin-left: -15px;
+}
+
+.lover-subtitle {
+  list-style-type: disc;
+  font-family: "Inter";
+  max-width: 33.75rem;
+  max-height: 6.75rem;
+  width: 68%;
+  color: black;
+  opacity: calc(50%);
+  margin-top: 20px;
+}
+
+ul li {
+  list-style-type: disc;
 }
