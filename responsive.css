@@ -153,11 +153,58 @@
     list-style-type: disc;
   }
 
+  .deals-title {
+    font-size: 24px;
+  }
+
+  .deals-subtitle {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  /* Gallery section */
+
+  .deals-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+
+  .deal-gallery {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+  }
+
+  .dealcard-section-1 {
+    width: 22.5rem;
+    height: 11.5rem;
+  }
+  .dealcard-section-2 {
+    width: 22.5rem;
+    height: 11.5rem;
+  }
+  .dealcard-section-3 {
+    width: 22.5rem;
+    height: 11.5rem;
+  }
+
+  .dealcard-title,
+  #zabo-card-title {
+    font-size: 20px;
+  }
+
+  .dealcard-subtitle,
+  #zabo-card-subtitle {
+    font-size: 16px;
+  }
+
   /* Join Section */
   .join-area {
     flex-direction: column;
     width: 100%;
     height: 17.25rem;
+    margin-top: 55px;
   }
 
   .join-title {
