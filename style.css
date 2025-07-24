@@ -381,3 +381,55 @@ ul li {
 .join-btn:hover {
   background-color: #c74b07;
 }
+
+/* >>>>>footer style<<<<<< */
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  width: 8.4rem;
+  height: 5.125rem;
+}
+
+.footer-subtitle {
+  color: black;
+  opacity: calc(50%);
+  font-family: "Inter";
+  max-width: 22.4rem;
+  width: 75%;
+  height: 5rem;
+  margin-top: 16px;
+}
+
+a.footer-link {
+  display: grid;
+  text-decoration: none;
+  color: black;
+  opacity: calc(50%);
+  font-family: "Inter";
+  margin-top: 25px;
+  padding-right: 115px;
+  white-space: nowrap;
+}
+
+.footer-icons {
+  margin-top: -150px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 216px;
+  height: 36px;
+}
+
+img.footer-icon {
+  width: 36px;
+  height: 36px;
+}
