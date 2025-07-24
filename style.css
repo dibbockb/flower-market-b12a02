@@ -245,3 +245,139 @@
 ul li {
   list-style-type: disc;
 }
+
+/* >>>>>>Deals Styles<<<<<< */
+
+/* .deals-container {
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1000px;
+}
+
+.deals-text {
+  max-width: 1440px;
+  max-height: 138px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.deals-title {
+  font-size: 3.125rem;
+}
+
+.deals-subtitle {
+  font-size: 1.375rem;
+  max-width: 55.5rem;
+  max-height: 3.375rem;
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  color: black;
+  opacity: calc(50%);
+  font-family: "Inter";
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 6px;
+}
+
+.deal-cards {
+  display: grid;
+  max-width: 1140px;
+  max-height: 423px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.deal-card {
+  background-image: url(assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  border-radius: 12px 12px 12px 12px;
+}
+
+.card-title {
+  font-family: "Noto Serif";
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+}
+
+.card-subtitle {
+  font-family: "Inter";
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  text-decoration: underline;
+} */
+
+/* >>>>>>Join Area<<<<<< */
+
+.join-area {
+  background-image: url(assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 533px;
+  width: 100vw;
+
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 900px;
+}
+
+.join-area-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.join-title {
+  font-size: 3.125rem;
+  color: white;
+}
+
+.join-input {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 0px;
+  margin-top: 15px;
+}
+
+.join-input-area::placeholder {
+  font-family: "Inter";
+  padding: 5px;
+}
+.join-input-area:focus {
+  outline: none;
+}
+
+.join-input-area {
+  width: 40.25rem;
+  height: 3.125rem;
+}
+
+.join-btn {
+  width: 11.6rem;
+  height: 3.125rem;
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  font-family: "Inter";
+  font-size: 1.1rem;
+}
+
+.join-btn:hover {
+  background-color: #c74b07;
+}
