@@ -80,7 +80,7 @@
   .plants-subtitle {
     font-size: 0.75rem;
     max-width: 336px;
-    /* width: 77%; */
+    width: 77%;
     height: 68px;
     color: black;
     opacity: calc(50%);
@@ -200,8 +200,8 @@
 
   .footer-icons {
     margin-top: 30px;
-    margin-left: 105px;
+    padding-left: 50px;
     margin-bottom: 20px;
-    width: 100vw;
+    width: 100%;
   }
 }

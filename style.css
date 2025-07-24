@@ -212,6 +212,14 @@
   height: auto;
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .trusted-badge {
   max-width: 13.8rem;
   max-height: 13.8rem;
@@ -220,6 +228,8 @@
   top: -110px;
   right: -10px;
   z-index: 10;
+
+  animation: spin 10s linear infinite;
 }
 
 .lover-title {
